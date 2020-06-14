@@ -1,0 +1,43 @@
+C:\Users\Tobiasz>curl -XPUT -i -H "Content-Type: application/json" -d "{ 'name': 'Tobiasz Rumian', 'nationality': 'PL', 'age': 24, 'arrested':false}" http://localhost:8098/buckets/s21634/keys/1
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 14 Jun 2020 15:47:12 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Tobiasz>curl -XPUT -i -H "Content-Type: application/json" -d "{ 'name': 'Bruce Springsteen', 'nationality': 'USA', 'age': 12, 'arrested':false}" http://localhost:8098/buckets/s21634/keys/2
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 14 Jun 2020 15:47:12 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Tobiasz>curl -XPUT -i -H "Content-Type: application/json" -d "{ 'name': 'Mr. X ', 'nationality': 'DE', 'age': 35, 'arrested':true}" http://localhost:8098/buckets/s21634/keys/3
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 14 Jun 2020 15:47:12 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Tobiasz>curl -XPUT -i -H "Content-Type: application/json" -d "{ 'name': 'Buck Bundy', 'nationality': 'CA', 'age': 50, 'arrested':true}" http://localhost:8098/buckets/s21634/keys/4
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 14 Jun 2020 15:47:12 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+C:\Users\Tobiasz>curl -XPUT -i -H "Content-Type: application/json" -d "{'name': 'Braian Braianowitch', 'nationality': 'RU', 'age': 75, 'arrested':true}" http://localhost:8098/buckets/s21634/keys/5
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 14 Jun 2020 15:47:13 GMT
+Content-Type: application/json
+Content-Length: 0

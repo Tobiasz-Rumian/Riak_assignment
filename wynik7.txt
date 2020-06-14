@@ -1,0 +1,8 @@
+C:\Users\Tobiasz>curl -XGET -i  http://localhost:8098/buckets/s21634/keys/2
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 14 Jun 2020 15:48:41 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

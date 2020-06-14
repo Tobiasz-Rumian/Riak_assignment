@@ -1,0 +1,13 @@
+C:\Users\Tobiasz>curl -XGET -i  http://localhost:8098/buckets/s21634/keys/A1b88PkPwUxOsZHfe98q115L7AR
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdlenfgyGCCUy5rEyPDkUdYMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21634>; rel="up"
+Last-Modified: Sun, 14 Jun 2020 15:48:52 GMT
+ETag: "7mlyK8gLvdr9WC55VXsPoe"
+Date: Sun, 14 Jun 2020 15:49:09 GMT
+Content-Type: application/json
+Content-Length: 23
+
+{ 'name': 'New Newman'}

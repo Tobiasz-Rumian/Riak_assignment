@@ -1,0 +1,8 @@
+C:\Users\Tobiasz>curl -XPOST -i -H "Content-Type: application/json" -d "{ 'name': 'New Newman'}" http://localhost:8098/buckets/s21634/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s21634/keys/A1b88PkPwUxOsZHfe98q115L7AR
+Date: Sun, 14 Jun 2020 15:48:52 GMT
+Content-Type: application/json
+Content-Length: 0

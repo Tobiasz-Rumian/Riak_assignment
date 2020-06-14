@@ -1,0 +1,13 @@
+C:\Users\Tobiasz>curl -XGET -i  http://localhost:8098/buckets/s21634/keys/1
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdldneuyHCCUy5rEyNByKusGXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21634>; rel="up"
+Last-Modified: Sun, 14 Jun 2020 15:47:12 GMT
+ETag: "EMwWlqFkt6TzTYvETB6F7"
+Date: Sun, 14 Jun 2020 15:47:45 GMT
+Content-Type: application/json
+Content-Length: 77
+
+{ 'name': 'Tobiasz Rumian', 'nationality': 'PL', 'age': 24, 'arrested':false}
